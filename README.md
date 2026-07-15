@@ -28,6 +28,10 @@ builds or reviews UI.
 You can easily install this skill into your AI agent (like Antigravity, Claude Code, or Codex) using the standard skill installation tool:
 
 ```bash
+# Install globally (for all your projects)
+npx skills add -g https://github.com/RahmatHadinata23758051/SKILL-Design-Intelligence.git
+
+# Install locally (for the current project only)
 npx skills add https://github.com/RahmatHadinata23758051/SKILL-Design-Intelligence.git
 ```
 
