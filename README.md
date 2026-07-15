@@ -1,6 +1,6 @@
 # Design Intelligence
 
-An Aesthetic Engineering Skill for Codex that turns UI generation into taste-driven design, critique,
+An Aesthetic Engineering Skill for AI Agents (Antigravity, Claude Code, Codex) that turns UI generation into taste-driven design, critique,
 and handoff.
 
 This README is a companion to [SKILL.md](SKILL.md). The runtime behavior lives in `SKILL.md`; this
@@ -18,7 +18,7 @@ AI coding agents can generate interfaces quickly, but they often drift into pred
 - Emoji icons in place of actual iconography
 - Weak typography, spacing, and hierarchy
 
-`design-intelligence` adds a design judgment layer so Codex can choose a visual direction before it
+`design-intelligence` adds a design judgment layer so AI coding agents can choose a visual direction before they
 builds or reviews UI.
 
 ---
