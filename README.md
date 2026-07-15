@@ -23,6 +23,15 @@ builds or reviews UI.
 
 ---
 
+## Installation
+
+You can easily install this skill into your AI agent (like Antigravity, Claude Code, or Codex) using the standard skill installation tool:
+
+```bash
+npx skills add https://github.com/RahmatHadinata23758051/SKILL-Design-Intelligence.git
+```
+
+---
 ## Core Promise
 
 The skill should consistently do six things:
