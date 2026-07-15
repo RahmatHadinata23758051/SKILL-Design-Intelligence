@@ -19,7 +19,7 @@ AI coding agents can generate interfaces quickly, but they often drift into pred
 - Weak typography, spacing, and hierarchy
 
 `design-intelligence` adds a design judgment layer so AI coding agents can choose a visual direction before they
-builds or reviews UI.
+build or review UI.
 
 ---
 
