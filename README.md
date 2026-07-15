@@ -1,3 +1,5 @@
+![Design Intelligence Banner](assets/banner.png)
+
 # Design Intelligence
 
 An Aesthetic Engineering Skill for AI Agents (Antigravity, Claude Code, Codex) that turns UI generation into taste-driven design, critique,
