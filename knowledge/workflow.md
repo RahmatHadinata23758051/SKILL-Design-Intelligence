@@ -22,6 +22,7 @@ This file defines how to use the design-intelligence skill without bloating `SKI
    - `design-principles/spacing.md`
    - `design-principles/hierarchy.md`
    - `design-principles/accessibility.md`
+   - `design-principles/distinctiveness.md`
 5. Load reference material only when the task needs art direction, component architecture, or icon guidance.
 
 ## Default Domain Selection
@@ -36,9 +37,17 @@ This file defines how to use the design-intelligence skill without bloating `SKI
 ## Response Sequence
 
 1. State assumptions or ask at most 2 clarifying questions.
-2. Emit one `DESIGN DNA` block.
+2. Choose a distinctive product-appropriate direction and emit one `DESIGN DNA` block.
 3. Give recommendations, critique, or implementation guidance.
 4. End with the canonical `DESIGN QUALITY SCORE` block.
+
+## Distinctiveness Rule
+
+- Do not reuse the same visual answer by habit. Select the most appropriate archetype for the brief.
+- Change at least one major axis from the common landing-page template: composition, type scale,
+  imagery role, motion, or density.
+- Include one signature move that makes the result feel authored rather than assembled.
+- If the result still feels generic, revise the direction before answering.
 
 ## Audit Checklist
 
@@ -49,3 +58,4 @@ This file defines how to use the design-intelligence skill without bloating `SKI
 - Card addiction, gradient abuse, and emoji UI are absent.
 - Contrast, line length, and touch targets are acceptable.
 - Responsive behavior is plausible on desktop and mobile.
+- The design has one clear signature move without becoming gimmicky.

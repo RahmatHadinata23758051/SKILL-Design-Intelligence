@@ -23,6 +23,9 @@ AI coding agents can generate interfaces quickly, but they often drift into pred
 `design-intelligence` adds a design judgment layer so AI coding agents can choose a visual direction before they
 build or review UI.
 
+The goal is not to lock the skill into one visual style. The goal is to make each output distinct in a
+controlled way, so the result feels authored rather than templated.
+
 ---
 
 ## Installation
@@ -40,14 +43,15 @@ npx skills add https://github.com/RahmatHadinata23758051/SKILL-Design-Intelligen
 ---
 ## Core Promise
 
-The skill should consistently do six things:
+The skill should consistently do seven things:
 
 1. Analyze the product context before choosing a visual direction.
 2. Generate a `DESIGN DNA` before implementation.
 3. Load only the references needed for the request.
 4. Push the design away from generic templates and toward intentional composition.
-5. Detect visible anti-slop patterns with evidence, not vibes.
-6. End every response with the canonical `DESIGN QUALITY SCORE`.
+5. Require one signature move so each output can differ without becoming random.
+6. Detect visible anti-slop patterns with evidence, not vibes.
+7. End every response with the canonical `DESIGN QUALITY SCORE`.
 
 ---
 
@@ -59,6 +63,7 @@ The skill works as a compact design system for an AI agent:
 - `Design DNA Generator` - define typography, palette, layout, and motion direction.
 - `Reference Intelligence` - pull only the relevant design principles and patterns.
 - `Anti-Slop Detector` - catch template similarity, card addiction, gradient abuse, and emoji UI.
+- `Distinctiveness Gate` - ensure each result has one signature move and one meaningful deviation.
 - `Component Advisor` - translate the direction into build-ready decisions.
 - `Design Auditor` - review implementations and report issues in a structured way.
 
@@ -145,6 +150,7 @@ The skill is designed to be stable, not just expressive:
 
 - It uses one canonical score block, so outputs do not drift.
 - It loads one primary visual pattern per request, so the context stays narrow.
+- It requires a signature move, so separate briefs do not collapse into one repeated template.
 - It treats accessibility as mandatory, not optional polish.
 - It reports only observed issues during critique.
 - It pushes the agent to make a single clear design decision instead of multiple competing directions.

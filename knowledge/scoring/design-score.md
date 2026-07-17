@@ -10,6 +10,7 @@ Use this exact block at the end of every design or audit response. Do not rename
 * **Color Strategy**: [0-100] - *[1-line justification]*
 * **Component Quality**: [0-100] - *[1-line justification]*
 * **Brand Identity**: [0-100] - *[1-line justification]*
+* **Distinctiveness**: [0-100] - *[1-line justification]*
 
 **AI Slop Risk Level:**
 * **Gradient Abuse**: [LOW/MEDIUM/HIGH]
